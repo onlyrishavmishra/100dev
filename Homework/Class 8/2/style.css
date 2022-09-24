@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body{
+    background-color: rgb(245, 249, 252);
+
+}
+
+nav{
+    height: 50px;
+    /* background: navy; */
+
+}
+
+nav ul li a{
+    color: rgb(48, 70, 89);
+    text-decoration: none;
+}
+
+nav ul li{
+    text-decoration: none;
+    float: left;
+    padding: 5px;
+    margin: 5px 10px;
+    list-style: none;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+nav ul li:first-child{
+    float: left;
+    margin-right: 30%;
+    font-weight: 700;
+    font-size: larger;
+} 
+
+nav ul li:last-child{
+    float: right;
+    margin-right: 50px;
+    position: relative;
+    font-size: larger;
+    border: 1px solid rgb(48, 70, 89);
+    background-color: rgb(48, 70, 89);
+    color: white;
+    padding: 5px 20px;
+}
+
+nav ul li:last-child a{
+    color:white;
+}
+
+main{
+    clear: both;
+    margin-top: 50px;
+
+}
+#section1 {
+    /* border: 2px solid rgb(23, 15, 143); */
+    float: left;
+    width: 50%;
+    height: 500px;
+    padding: 5px 5px 5px 30px;
+
+    
+    
+    
+}
+#section1 h1{
+    font-size: 40px;
+}
+#section1 span{
+    margin: 0 0 100px 0;
+    padding: 0 0 20px 0;
+}
+
+#section1 input{
+    margin: 20px 0;
+}
+
+#section1 div a{
+    border: 1px solid rgb(48, 70, 89);
+    background: rgb(48, 70, 89);
+    color: white;
+    text-decoration: none;
+    padding: 2px 10px;
+}
+
+#section1 div input{
+    border: 1px solid rgb(48, 70, 89);
+    padding: 4px;
+    width: 200px;
+    margin-right: 5px;
+}
+
+#section2{
+    /* border: 2px solid rgb(62, 23, 155); */
+    float: left;
+    width: 50%;
+    height: 500px;
+
+}
+
+
+#section02{
+    padding: 20px;
+}
+
+#section02 section{
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+    position:relative;
+    padding: 10px;
+    
+}
+
+#section02 section a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(48, 70, 89);
+    
+}
+
+#section02 section h3{
+    color: rgb(48, 70, 89);
+    margin-bottom: 20px;
+}
+
+#section02 section p{
+    margin-bottom: 20px;
+}
+
+#section02 section img{
+    width: 25px;
+    hight: 25px;
+    margin-bottom: 20px;
+
+}
+
+

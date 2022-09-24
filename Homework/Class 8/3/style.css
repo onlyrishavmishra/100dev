@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+/* 
+/* nav css */
+
+nav *{
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    font-size: 14px;
+}
+
+nav{
+    height: 70px;
+    background-color: rgb(31, 39, 54);
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+
+nav ul{
+    margin: 30px 30px 30px 30px;
+}
+
+#logo{
+    margin-right: 500px;
+}
+
+nav ul li a{
+    color:white;
+}
+
+#nav-btn{
+    margin: -12px 10px;
+    padding: 10px 20px;
+    /* border: 1px solid white; */
+    background-color: rgb(60, 66, 79);
+    border-radius: 5px;
+}
+
+
+/* nav css end  */
+
+
+main{
+    background: rgb(31, 39, 54);
+    height: 500px;
+}
+
+main section{
+    padding: 50px 100px;
+    color: white;
+}
+
+.section-50{
+    width: 50%;
+    float: left;
+}
+
+main .section-50 img{
+    width: 500px;
+    height: 400px;
+}
+
+.section-50 h1{
+    margin-bottom: 20px;
+}
+
+.section-50 p{
+    margin-bottom: 20px;
+
+}
+
+.section-50 div *{
+    float: left;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.section-50 div li{
+    margin-right: 20px;
+}
+
+
+
+.white-btn a {
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+.black-btn a{
+    background: #1f2736;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.section-logo ul li img{
+    width: 200px;
+    height: 100px;
+    float: left;
+    filter: grayscale(10);
+    
+}
+
+.section-logo ul{
+    margin-left: 100px;
+} */
+
